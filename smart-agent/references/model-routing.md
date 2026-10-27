@@ -2,6 +2,12 @@
 
 Use native judgment on the user's selected model. A model change is optional, subject to the actual control surface and current authorization. Recommendations do not change the coordinator, create a chat or authorize delegation.
 
+## User preference: computer-use plugin
+
+The user designates GPT-6.1 Terra (`gpt-6.1-terra`) as the best/preferred model for computer-use plugin tasks, recorded on 2026-10-27. Favor it when making a supported model-selection decision for that work. This is a task-specific user preference, not an independently measured universal ranking or a cost/speed claim.
+
+Honor the user's explicit model and effort choices and check the exact live selection surface. This preference does not automatically switch the coordinator, change global defaults, start another chat or authorize delegation. If Terra 6.1 is unavailable or the runtime cannot switch, continue with the current capable model where feasible and disclose a material limitation.
+
 ## Evidence checked on 2026-10-27
 
 `assets/model-candidates.json` is a sanitized local-cache snapshot. `assets/surface-models.json` records the model/effort pairs exposed by the tool schemas observed in this maintenance session. Cache, chat controls and collaboration are distinct evidence surfaces. Current chat controls expose eight candidates; collaboration exposes five of them. Hidden cache entries remain inventory-only.

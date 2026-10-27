@@ -1,5 +1,7 @@
 # Computer, app, and environment work
 
+For computer-use plugin tasks, favor the user's preferred GPT-6.1 Terra (`gpt-6.1-terra`) when a supported selection is available. Follow [the computer-use model preference](model-routing.md#user-preference-computer-use-plugin), explicit model/effort choices and the runtime's actual controls; a preference alone does not switch this session's model.
+
 ## Inspect the actual execution surface
 
 Identify the user's intended target and available tools, connected apps, browser/computer surfaces, files, terminal, persistent/cloud workspace, or future execution mechanisms. Read the relevant interface guidance before operating it. Check actual access; do not probe unrelated accounts or assume that tool availability establishes authorization.
