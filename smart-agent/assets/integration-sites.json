@@ -1,0 +1,102 @@
+{
+  "reviewed_on": "2026-10-27",
+  "sites": [
+    {
+      "id": "threejs-official",
+      "url": "https://threejs.org/",
+      "role": "official documentation, examples and migrations",
+      "status": "read"
+    },
+    {
+      "id": "open3dlab",
+      "url": "https://open3dlab.com/",
+      "role": "user-requested external asset candidate",
+      "status": "automated read blocked by Anubis challenge; no assets or licenses verified",
+      "runtime_installed": false
+    },
+    {
+      "id": "nmap",
+      "url": "https://nmap.org/book/man.html",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "wireshark",
+      "url": "https://www.wireshark.org/docs/",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "kali",
+      "url": "https://www.kali.org/docs/",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "burp",
+      "url": "https://portswigger.net/burp/documentation",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "suricata",
+      "url": "https://docs.suricata.io/",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "metasploit",
+      "url": "https://docs.rapid7.com/metasploit/",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "osint",
+      "url": "https://osintframework.com/",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "hashcat",
+      "url": "https://hashcat.net/wiki/",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "aircrack-ng",
+      "url": "https://www.aircrack-ng.org/doku.php",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "zap",
+      "url": "https://www.zaproxy.org/docs/",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "splunk",
+      "url": "https://help.splunk.com/",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "nginx",
+      "url": "https://nginx.org/en/docs/",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "haproxy",
+      "url": "https://www.haproxy.com/documentation/haproxy-configuration-tutorials/alerts-and-monitoring/",
+      "role": "primary documentation entrypoint",
+      "status": "referenced; no installation or live assessment performed"
+    }
+  ]
+}

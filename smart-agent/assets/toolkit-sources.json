@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-27",
+  "sources": [
+    {
+      "id": "codex-auto-model-router",
+      "url": "https://github.com/orange-the-weak/codex-auto-model-router.git",
+      "root": "${CODEX_HOME}/skill-sources/agent-engineering-os/codex-auto-model-router",
+      "revision": "01a327701f28740f106e9782c7f14bc195f861b7",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": "SKILL.md",
+          "kind": "skill"
+        }
+      ],
+      "mode": "pinned local source, selectively adapted guidance",
+      "license_sha256": {
+        "LICENSE": "3e4061c1498d53f83fd3a3cbb2a39099cd35148fcb15d2b321d97782d7622c7b"
+      }
+    },
+    {
+      "id": "ui-skills",
+      "url": "https://github.com/ibelick/ui-skills.git",
+      "root": "${CODEX_HOME}/skill-sources/agent-engineering-os/ui-skills",
+      "revision": "59193a75432e5f41c6980f53b9e6a7bd56919947",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": "skills/*/SKILL.md",
+          "kind": "skill"
+        }
+      ],
+      "mode": "pinned local source, selectively adapted guidance",
+      "license_sha256": {
+        "LICENSE": "8cd4fa0f2cf381f9699fba638dc4a7fd8959c94cfc4bf05141fe6015cba05600"
+      }
+    },
+    {
+      "id": "gstack",
+      "url": "https://github.com/garrytan/gstack.git",
+      "root": "${CODEX_HOME}/skill-sources/agent-engineering-os/gstack",
+      "revision": "4d48d39e5119311b4cff905db75f97aaa8cb35ce",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": "SKILL.md",
+          "kind": "skill"
+        },
+        {
+          "pattern": "*/SKILL.md",
+          "kind": "skill"
+        },
+        {
+          "pattern": "agents-digest/gstack-AGENTS.md",
+          "kind": "guide"
+        }
+      ],
+      "mode": "pinned local source, selectively adapted guidance",
+      "license_sha256": {
+        "LICENSE": "a8667eed21984ffef9ea46bc0ce30d1ffbdf2c945c9a38f99898b454cd7dd5ce"
+      }
+    },
+    {
+      "id": "awesome-gamedev-agent-skills",
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills.git",
+      "root": "${CODEX_HOME}/skill-sources/agent-engineering-os/awesome-gamedev-agent-skills",
+      "revision": "184b72be02884f782a0058f2eeae2ce4277453e4",
+      "license": "Apache-2.0",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": "skills/**/SKILL.md",
+          "kind": "skill"
+        },
+        {
+          "pattern": "router/SKILL.md",
+          "kind": "skill"
+        }
+      ],
+      "mode": "pinned local source, selectively adapted guidance",
+      "license_sha256": {
+        "LICENSE": "7b6e4f65e5e1d0918447c4b5a371f01b49432098fee25a9ed0832c646e74cd90"
+      }
+    },
+    {
+      "id": "meowa-skills",
+      "url": "https://github.com/Meowa-AI/meowa-skills.git",
+      "root": "${CODEX_HOME}/skill-sources/agent-engineering-os/meowa-skills",
+      "revision": "288e9127e13a5f2293db529dbee5f79aedaeb371",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": "skills/*/SKILL.md",
+          "kind": "skill"
+        }
+      ],
+      "mode": "pinned local source, selectively adapted guidance",
+      "license_sha256": {
+        "LICENSE": "01b06fa1067ad0486759a1d0a86ebdd9ae887879f6b695ebe3ac0db2a0ff1aa0"
+      }
+    },
+    {
+      "id": "codex-game-studio",
+      "url": "https://github.com/merlinhu1/codex-game-studio.git",
+      "root": "${CODEX_HOME}/skill-sources/agent-engineering-os/codex-game-studio",
+      "revision": "f3c50a0552f562eafc8178973dc48c29cd0d50fa",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": ".agents/skills/*/SKILL.md",
+          "kind": "skill"
+        },
+        {
+          "pattern": ".codex/workflows/*.md",
+          "kind": "workflow"
+        }
+      ],
+      "mode": "pinned local source, selectively adapted guidance",
+      "license_sha256": {
+        "LICENSE": "b78b9d8e82ca5a6753466d53b2973e6dfe0ec8851aeae7102940e5fb4d97077a"
+      }
+    },
+    {
+      "id": "blender-mcp",
+      "url": "https://projects.blender.org/lab/blender_mcp.git",
+      "root": "C:/blender_mcp",
+      "revision": "dbbf836ad4b1025f14a2b3b504c43903f39e0b04",
+      "license": "GPL-3.0-or-later",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": "readme.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "readme_tools.rst",
+          "kind": "guide"
+        },
+        {
+          "pattern": "mcp/README.md",
+          "kind": "guide"
+        }
+      ],
+      "mode": "pinned local source, selectively adapted guidance",
+      "license_sha256": {
+        "LICENSE": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b"
+      }
+    },
+    {
+      "id": "game-assets-installed",
+      "url": "https://github.com/Meowa-AI/meowa-skills/tree/main/skills/game-assets",
+      "root": "~/.agents/skills/game-assets",
+      "license": "MIT (see meowa-skills source LICENSE)",
+      "license_files": [],
+      "catalog": [
+        {
+          "pattern": "SKILL.md",
+          "kind": "skill"
+        }
+      ],
+      "mode": "installed by npx skills for Codex",
+      "license_sha256": {}
+    },
+    {
+      "id": "superpowers",
+      "url": "https://github.com/obra/superpowers.git",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "root": "${CODEX_HOME}/skill-sources/smart-agent/superpowers",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": "README.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "skills/*/SKILL.md",
+          "kind": "skill"
+        }
+      ],
+      "mode": "pinned source reference; runtime not installed or activated",
+      "license_sha256": {
+        "LICENSE": "0da33ed814ee87e72db078f489c4447af72f13d9f25d9e17476f32efd77705fc"
+      }
+    },
+    {
+      "id": "pixelrag",
+      "url": "https://github.com/StarTrail-org/PixelRAG.git",
+      "revision": "cf91bd4fc6891a3530627a5304a3ca566e3160c2",
+      "root": "${CODEX_HOME}/skill-sources/smart-agent/pixelrag",
+      "license": "Apache-2.0",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": "README.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/screenshot-throughput-optimization.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "plugin/**/SKILL.md",
+          "kind": "skill"
+        }
+      ],
+      "mode": "pinned source reference; runtime not installed or activated",
+      "license_sha256": {
+        "LICENSE": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+      }
+    },
+    {
+      "id": "atlas-components",
+      "url": "https://github.com/TurkiHassan/atlas-components.git",
+      "revision": "e99428f025da7d391ccc470ade42e559d202b8df",
+      "root": "${CODEX_HOME}/skill-sources/smart-agent/atlas-components",
+      "license": "No repository-level grant found; review third-party notices and obtain rights before redistribution",
+      "license_files": [
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "catalog": [
+        {
+          "pattern": "README.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/COMPONENTS.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/SELECTION-CRITERIA.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/VERIFICATION.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/COMPARISON-RESULTS.md",
+          "kind": "guide"
+        }
+      ],
+      "mode": "pinned source reference; runtime not installed or activated",
+      "license_sha256": {
+        "THIRD_PARTY_NOTICES.md": "559999e77ae7c929d3a04de84d5cfdd7b190f0e90743a71906cbe69db4e0aa25"
+      }
+    },
+    {
+      "id": "agent-beacon",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon.git",
+      "revision": "90b19ae0626fd6fd060c62ddbc70827a23242f4e",
+      "root": "${CODEX_HOME}/skill-sources/smart-agent/agent-beacon",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": "README.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/sharing/agent-skills.mdx",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/cli/*.mdx",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/knowledge/*.mdx",
+          "kind": "guide"
+        }
+      ],
+      "mode": "pinned source reference; runtime not installed or activated",
+      "license_sha256": {
+        "LICENSE": "d662d451c78fd686b55990f591ffba5ff73c15f1bf11586e6960b68e1ff92a47"
+      }
+    },
+    {
+      "id": "headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom.git",
+      "revision": "17d38e5699b7d7c69ac6addcd762f39e42dd7f00",
+      "root": "${CODEX_HOME}/skill-sources/smart-agent/headroom",
+      "license": "Apache-2.0",
+      "license_files": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "catalog": [
+        {
+          "pattern": "README.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/content/docs/quickstart.mdx",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/content/docs/mcp-server.mdx",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/content/docs/text-and-logs.mdx",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/content/docs/security-model.mdx",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/content/docs/savings.mdx",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/content/docs/mcp.mdx",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/content/docs/codex-recovery.mdx",
+          "kind": "guide"
+        }
+      ],
+      "mode": "pinned source reference; runtime not installed or activated",
+      "license_sha256": {
+        "LICENSE": "50b9e890f4afb0a500696cdb6cde3dae08468225a1699317d23e81a1e2703a46",
+        "NOTICE": "93c0d7d91c2aa2f9362e180714b07b25636b5f74ea71a3c88ac113a6d31ee524"
+      }
+    },
+    {
+      "id": "threejs",
+      "url": "https://github.com/mrdoob/three.js.git",
+      "revision": "6060921710839609bce347d4a154a207f757d8f7",
+      "root": "${CODEX_HOME}/skill-sources/smart-agent/threejs",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "catalog": [
+        {
+          "pattern": "README.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/llms.txt",
+          "kind": "guide"
+        },
+        {
+          "pattern": "manual/pages/fundamentals.html",
+          "kind": "guide"
+        },
+        {
+          "pattern": "manual/pages/creating-a-scene.html",
+          "kind": "guide"
+        },
+        {
+          "pattern": "manual/pages/responsive.html",
+          "kind": "guide"
+        },
+        {
+          "pattern": "manual/pages/cleanup.html",
+          "kind": "guide"
+        },
+        {
+          "pattern": "manual/pages/load-gltf.html",
+          "kind": "guide"
+        },
+        {
+          "pattern": "manual/pages/webgpurenderer.html",
+          "kind": "guide"
+        }
+      ],
+      "mode": "pinned source reference; runtime not installed or activated",
+      "license_sha256": {
+        "LICENSE": "5d5dad8147523d59bc15cca838ae0bdaae7075230ec49132c551a1d18e7b3412"
+      }
+    },
+    {
+      "id": "reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill.git",
+      "root": "${CODEX_HOME}/skill-sources/smart-agent/reverse-skill",
+      "revision": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+      "license": "MIT; preserve dependency notices for redistributed components",
+      "license_files": [
+        "LICENSE"
+      ],
+      "license_sha256": {
+        "LICENSE": "76c19981c8abef6fe96b021ba64bd22d68363f93f0b389a46378a0678ebcc460"
+      },
+      "catalog": [
+        {
+          "pattern": "README.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "README_AI.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "skills/MASTER-ROUTING.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "skills/routing.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "skills/**/SKILL.md",
+          "kind": "skill"
+        },
+        {
+          "pattern": "skills/ops/scope-contract.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "skills/ops/evidence-finding-path.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "skills/ops/skill-supply-chain.md",
+          "kind": "guide"
+        }
+      ],
+      "mode": "priority pinned guidance; no bootstrap, runtime setup or target operation activated"
+    },
+    {
+      "id": "rea",
+      "url": "https://github.com/morluto/rea.git",
+      "root": "${CODEX_HOME}/skill-sources/smart-agent/rea",
+      "revision": "0cd7ef456bf960da265e04b341e82a24b1e377d5",
+      "license": "MIT; preserve dependency notices for redistributed components",
+      "license_files": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "license_sha256": {
+        "LICENSE": "798f9e4d18e49b30bf2f12696c8ced73dc4e1413da375a333d01281543a1ea8b",
+        "THIRD_PARTY_NOTICES.md": "d2fa6973ee32ec2c3ef2d214cd5b8482f50511dcf9ba84937da3385920ebd1e6"
+      },
+      "catalog": [
+        {
+          "pattern": "README.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": ".agents/skills/reverse-engineer-anything/SKILL.md",
+          "kind": "skill"
+        },
+        {
+          "pattern": ".agents/skills/reverse-engineer-anything/references/*.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/installation.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/mcp-contracts.md",
+          "kind": "guide"
+        },
+        {
+          "pattern": "docs/cli.md",
+          "kind": "guide"
+        }
+      ],
+      "mode": "priority pinned guidance; no bootstrap, runtime setup or target operation activated"
+    }
+  ],
+  "attachment": {
+    "path": "${CODEX_HOME}/../Downloads/blender-1.0.3.mcpb",
+    "sha256": "d6fe04dd17767f7c7fb452142f1f0e6787db575db49f3976a166142683b5b97e",
+    "manifest": {
+      "manifest_version": "0.4",
+      "name": "Blender",
+      "version": "1.0.3",
+      "description": "Natural language interface with the Python API and documentation",
+      "long_description": "Blender MCP offers a natural language interface with Blender's Python API, improving access to documentation, and allowing users to explore and understand complex setups. \n\nAn add-on is required to use the MCP Server, please follow the [instructions](https://lab.blender.org/mcp-server/#addon).",
+      "author": {
+        "name": "Blender Lab",
+        "url": "https://www.blender.org/lab/"
+      },
+      "homepage": "https://www.blender.org/lab/mcp-server/",
+      "support": "https://projects.blender.org/lab/blender_mcp/issues/",
+      "icon": "blender_icon.png",
+      "server": {
+        "type": "uv",
+        "entry_point": "blmcp/__init__.py",
+        "mcp_config": {
+          "command": "uv",
+          "args": [
+            "run",
+            "blender-mcp"
+          ]
+        }
+      },
+      "license": "GPL-3.0-or-later",
+      "privacy_policies": [
+        "https://www.blender.org/privacy-policy/"
+      ],
+      "compatibility": {
+        "runtimes": {
+          "python": ">= 3.10"
+        }
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://projects.blender.org/lab/blender_mcp"
+      }
+    },
+    "mode": "inspected, preserved; not imported into MCP client",
+    "optional": true,
+    "last_observation": "2026-10-27: original download no longer present; repository remains available. No attachment checksum validation claimed in this update."
+  },
+  "runtime": {
+    "python": "${CODEX_HOME}/skill-runtimes/agent-engineering-os/Scripts/python.exe",
+    "installed": [
+      "requests",
+      "Pillow",
+      "PyYAML",
+      "blender-mcp from C:/blender_mcp/mcp"
+    ],
+    "blender_client_connected": false,
+    "meowa_remote_generation_tested": false
+  }
+}

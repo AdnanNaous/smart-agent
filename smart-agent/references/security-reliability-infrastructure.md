@@ -118,3 +118,5 @@ Use current applicable guidance at execution time. These primary resources are e
 - [OWASP excessive agency](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/) and [software supply chain](https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security_Cheat_Sheet.html); consult newer relevant AI/security mechanisms when available.
 - [AWS idempotent retries](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/) and [reliability guidance](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html), adapted to the actual platform.
 - [Stripe webhook guidance](https://docs.stripe.com/webhooks) as a provider-specific example; use the actual payment provider's current contract.
+
+For relevant shipped-artifact or specialized reverse/security tooling, read [reverse-toolchains.md](reverse-toolchains.md); prioritize the user-requested reverse-skill and REA sources without importing their global setup or dispatch instructions.

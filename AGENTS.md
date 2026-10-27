@@ -1,10 +1,10 @@
-# Working on Agent Engineering OS
+# Working on SMART AGENT
 
 This repository publishes a portable skill, not a model runtime. Preserve its capability-first architecture and the current model's native judgment. New tools, websites, models, and methods may supersede any example here.
 
 ## Where things live
 
-- `agent-engineering-os/` is the installable bundle. `SKILL.md` is the entry point; specialized instructions live in `references/`, UI metadata in `agents/`, and the checkpoint template in `assets/`.
+- `smart-agent/` is the installable bundle. `SKILL.md` is the entry point; specialized instructions live in `references/`, UI metadata in `agents/`, and the checkpoint template in `assets/`.
 - `README.md` and `docs/` serve people maintaining or installing the project. Keep presentation assets outside the installable bundle.
 - `tests/` contains validation cases and evidence reports; `tools/` contains repository validation tooling.
 
@@ -25,3 +25,5 @@ python3 -m unittest discover -s tests
 Use existing dependencies when available. These commands check structure and validation failures; they do not prove future intelligence, security, or task success. [Maintenance notes](docs/maintenance.md) describe evidence-backed evolution and supported installation updates.
 
 Publish only within the user's authorization and verify the actual remote result. A GitHub update does not automatically update an installed skill in another environment.
+
+SMART AGENT has 26 selectively loaded reference modules, a portable management CLI and pinned upstream catalogs. Changes to helpers require behavioral tests. Keep dated cache and live-surface observations separate. English repository maintenance documentation is the default; the user explicitly requested a full Arabic summary and Arabic PDF, so those deliverables are included. Do not automatically install or activate upstream tools.

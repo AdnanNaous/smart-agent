@@ -1,0 +1,4 @@
+interface:
+  display_name: "SMART AGENT"
+  short_description: "Adaptive engineering with efficient verified work"
+  default_prompt: "Use $smart-agent to complete this goal with relevant modules, current capabilities and verified results."

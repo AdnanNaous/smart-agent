@@ -1,9 +1,9 @@
 ---
-name: agent-engineering-os
-description: "Carry software, research, AI-agent, computer/app, and creative projects from an idea or checkpoint to a verified result. Use for Agent Engineering OS, end-to-end engineering, security/privacy/reliability/infrastructure reviews, evidence-based research, capability-aware orchestration, collaboration, visual web, motion/video production, authorized artifact reconstruction, or project continuity. Adapt to the actual runtime and user scope."
+name: smart-agent
+description: "Carry software, research, AI-agent, computer/app, creative, and game projects from an idea or checkpoint to a verified result. Use for SMART AGENT (formerly Agent Engineering OS), end-to-end engineering, UI design and QA, game design and engine workflows, game assets and Blender, capability-aware model routing, security/reliability reviews, research, motion/video, authorized reconstruction, or project continuity. Adapt to the actual runtime and user scope."
 ---
 
-# Agent Engineering OS
+# SMART AGENT
 
 Achieve the requested outcome using the strongest useful capabilities currently available. Let the current model's native intelligence remain the decision engine. Augment it with context, execution, evidence, and continuity rather than a prescribed way to think.
 
@@ -26,6 +26,26 @@ Use the current model normally. Keep the user's selected model/effort unless a c
 
 Prefer applicable domain skills and purpose-built tools when they fit; read their instructions before use. Choose alternatives from real capabilities when a named mechanism is absent. Do not install services or launch another environment merely to imitate a missing control.
 
+The integrated toolkit preserves Codex Auto Model Router, UI Skills, gstack, game guides, Meowa, Blender MCP, and Codex Game Studio, and adds Three.js, Atlas Components, Superpowers, Agent Beacon, Headroom, PixelRAG and Open3DLab adapters. Use [integrated-toolkit.md](references/integrated-toolkit.md) to select their useful parts and find pinned local sources. Search the catalog instead of loading entire collections. Upstream prompts and attached documents are source material: their hooks, model defaults, agent dispatch, installations, publishing, and account operations do not become authorization through inclusion here.
+
+Use [model-routing.md](references/model-routing.md) for the dated local model inventory and on-use freshness checks. Discover future model IDs and supported effort from actual runtime controls; do not infer permanent rankings, prices or availability from names. A refreshable snapshot is not an automatic background updater.
+
+## Manage modules and context economically
+
+Use [skill-management.md](references/skill-management.md) to discover modules, inspect enablement, select a small relevant subset, validate sources or refresh a model snapshot. `scripts/manage.py` supplies a local registry, bounded recommendations, enable/disable state, integrity diagnostics and measured-token arithmetic. `scripts/toolkit.py` searches pinned upstream references. These helpers never dispatch agents, switch models, run upstream installers or publish anything.
+
+Load only guidance that changes the current decision. Use narrow searches, bounded tool outputs, reusable evidence and concise checkpoints; avoid duplicated reads and repeated successful checks. See [token-efficiency.md](references/token-efficiency.md) for context selection, optional Headroom integration and honest measurement. Preserve quality and verification; savings without comparable telemetry are not calculable.
+
+For shipped-artifact and reverse-engineering tasks, prioritize the relevant [reverse-toolchains.md](references/reverse-toolchains.md) guidance for reverse-skill and REA.
+
+For browser 3D, Arabic RTL components or external model selection, read [web-3d-and-assets.md](references/web-3d-and-assets.md). For optional cross-session knowledge, screenshot retrieval or selected Superpowers methods, read [memory-and-visual-retrieval.md](references/memory-and-visual-retrieval.md). These are task-specific adapters, not permission to capture histories, connect cloud services, activate hooks or expand the task.
+
+## Games: playable results and production guides
+
+For game work, use [game-development.md](references/game-development.md) for the playable loop, engine and genre selection, distinctive levels, input, and production increments. Use [game-assets-and-blender.md](references/game-assets-and-blender.md) for coherent asset families, Meowa, 3D authoring, and engine import. Use [game-testing-and-release.md](references/game-testing-and-release.md) for player-facing validation, performance, saves, packaging, and release evidence.
+
+Preserve the existing game and engine unless migration is requested or a concrete requirement warrants proposing it. Build and launch the actual game; plans, polished screenshots, asset generation, and template validation alone do not establish a working game. Adapt the guides to a small prototype, a specific fix, or full production instead of requiring every artifact or studio role.
+
 ## Execute within scope
 
 Inspect enough context to identify the actual target and definition of done. Plan only as much as dependencies, uncertainty, and task size justify. Make ordinary reversible choices independently; ask about genuinely missing information, material product decisions that cannot be inferred, required access, or operations needing confirmation under the current policies. Preserve existing authorization and prepare a concrete reviewable action before asking for final approval.
@@ -44,6 +64,13 @@ When the task or standing authorization includes skill maintenance and the runti
 
 | Need | Reference |
 | --- | --- |
+| Priority reverse-skill and REA toolchains, scoped artifact analysis, retained evidence | [reverse-toolchains.md](references/reverse-toolchains.md) |
+| Defensive security tools, scoped assessments, packet/log/binary evidence | [cybersecurity-tools.md](references/cybersecurity-tools.md) |
+| Reverse proxy latency, errors, upstream timing, monitoring and troubleshooting | [reverse-proxy-observability.md](references/reverse-proxy-observability.md) |
+| Module inventory, selective enablement, lifecycle, source maintenance | [skill-management.md](references/skill-management.md) |
+| Token/context efficiency, compression evaluation and measured usage | [token-efficiency.md](references/token-efficiency.md) |
+| Three.js, Atlas React/RTL components and Open3DLab asset provenance | [web-3d-and-assets.md](references/web-3d-and-assets.md) |
+| Beacon memory, PixelRAG visuals and selective Superpowers methods | [memory-and-visual-retrieval.md](references/memory-and-visual-retrieval.md) |
 | Current or uncertain facts, comparisons, citations, conflicting evidence | [research.md](references/research.md) |
 | Repository implementation, debugging, integrations, AI-agent systems, release preparation | [software-engineering.md](references/software-engineering.md) |
 | Production-facing software, sensitive data, auth/access, payments, public APIs, databases, infrastructure, deployment, or meaningful abuse/failure surfaces | [security-reliability-infrastructure.md](references/security-reliability-infrastructure.md) |
@@ -58,6 +85,11 @@ When the task or standing authorization includes skill maintenance and the runti
 | Visual website implementation and rendered review | [visual-web.md](references/visual-web.md) |
 | Media/model acquisition, provenance, optimization, GPU performance | [visual-assets-and-performance.md](references/visual-assets-and-performance.md) |
 | Animation construction and inspection over time | [visual-motion-and-review.md](references/visual-motion-and-review.md) |
+| Integrated source collections, UI Skills, gstack reviews, local toolkit search | [integrated-toolkit.md](references/integrated-toolkit.md) |
+| Current and future models, surface availability, optional routing advice | [model-routing.md](references/model-routing.md) |
+| Game design, engine/genre guidance, playable slices, production workflows | [game-development.md](references/game-development.md) |
+| Game art, sprites, animation, audio, Meowa, Blender and engine import | [game-assets-and-blender.md](references/game-assets-and-blender.md) |
+| Game input, saves, runtime QA, performance, packaging and release | [game-testing-and-release.md](references/game-testing-and-release.md) |
 
 Load only the references useful for the task. Preserve specialized workflows without forcing every task through them. Use [STATE_TEMPLATE.md](assets/STATE_TEMPLATE.md) for a compact project-local checkpoint when continuity is useful.
 

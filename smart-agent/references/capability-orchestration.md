@@ -16,6 +16,8 @@ Let the model choose decomposition, research depth, architecture, debugging stra
 
 ## Optional model and effort selection
 
+For this installation's Terra 6.1 candidate and the requested Codex Auto Model Router integration, read [model-routing.md](model-routing.md). Its dated catalog is advisory; verify exact model IDs and effort support on the target tool. Upstream routing defaults do not override the current runtime or explicit user choices.
+
 Use supported selection controls only when a bounded task has a meaningful advantage from another model or specialist context. Otherwise keep the current model. Respect a user's selected main model and effort; a name in conversation is a preference, not proof of the executing model. Label unknown or inherited settings honestly.
 
 Consider capability, context, specialization, latency, reliable cost/quota information, verification difficulty, rework, and handoff overhead together. Model capability and reasoning effort are different dimensions; effort labels are not comparable units of intelligence or cost across models. No fixed low-to-high ladder, effort ceiling, family hierarchy, or generation mapping is required.

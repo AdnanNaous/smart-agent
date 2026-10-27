@@ -43,15 +43,15 @@ class ValidationTests(unittest.TestCase):
     def test_maintenance_and_evaluation_links_are_checked(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            bundle = root / "agent-engineering-os"
+            bundle = root / "smart-agent"
             (bundle / "agents").mkdir(parents=True)
             (bundle / "SKILL.md").write_text(
-                '---\nname: agent-engineering-os\ndescription: "Verified work"\n---\n'
+                '---\nname: smart-agent\ndescription: "Verified work"\n---\n'
             )
             (bundle / "agents/openai.yaml").write_text(
-                'interface:\n  display_name: Agent Engineering OS\n'
+                'interface:\n  display_name: SMART AGENT\n'
                 '  short_description: Capability-first verified engineering\n'
-                '  default_prompt: Use $agent-engineering-os\n'
+                '  default_prompt: Use $smart-agent\n'
             )
             (root / "README.md").write_text("Project\n")
             self.assertEqual(validate(root), [])

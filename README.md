@@ -1,181 +1,117 @@
-![Agent Engineering OS: native judgment connected to research, engineering, operations, and creative work](docs/assets/agent-engineering-os.svg)
+![SMART AGENT](docs/assets/smart-agent.svg)
 
-# Agent Engineering OS
+# SMART AGENT
 
-**Capability-first · Evidence-driven · Open to evolution**
+A consolidated personal skill for adaptive engineering, creative work, research and operations with selective context, current capabilities and observable results. Formerly **Agent Engineering OS**; invoked as **`$smart-agent`**.
 
-[Install](#install) · [Capabilities](#capabilities) · [Examples](#examples) · [Bundle](#bundle) · [Evidence](#validation) · [Maintenance](docs/maintenance.md)
+SMART AGENT keeps the current model's native judgment in charge. It supplies reusable domain guidance, evidence standards, a module manager and searchable pinned source libraries. It does not create tools, credentials, model access or a background process by itself.
 
-> Give the agent an outcome. Let its native intelligence choose the useful work. Verify what actually happened.
+## What this update adds
 
-Agent Engineering OS is a capability-first skill for turning goals into verified work. It combines research, software engineering, computer/app operation, creative production, and project continuity in environments that expose those capabilities.
+- **26 reference modules**, with a local inventory, advisory selection, enable/disable preferences and integrity diagnostics.
+- **485 indexed references across 16 source registrations**, including retained libraries and the newly requested sources. An index entry is a guide, skill or workflow, not an independently installed executable tool.
+- Three.js and its official site, Atlas Components, Superpowers, Agent Beacon, Headroom, PixelRAG and Open3DLab adapters.
+- **Priority reverse engineering:** reverse-skill and REA, including case/evidence workflows, provider distinctions, retained dossiers and recovery boundaries.
+- All 12 requested cybersecurity tools, with scoped use cases and evidence requirements, plus reverse proxy performance monitoring and troubleshooting.
+- A refreshable model inventory with separate cache and execution-surface observations; future IDs can be discovered without rewriting a fixed family list.
+- Token efficiency through bounded retrieval, selective references and measured comparisons. No unmeasured savings percentage is claimed.
 
-It evolved from Smart Model Router. Model selection is now an optional optimization inside the work, rather than the organizing principle. The current model retains responsibility for reasoning, decomposition, architecture, research depth, tools, and verification.
+The [English deep summary](docs/SMART-AGENT-summary-en.md) and [Arabic deep summary](docs/SMART-AGENT-summary-ar.md) explain the architecture, tools, examples, maintenance and limitations. Printable editions are available in [English](docs/SMART-AGENT-English.pdf) and [Arabic](docs/SMART-AGENT-Arabic.pdf).
 
-## Why it exists
+## Install and migrate
 
-A durable skill should define useful outcomes, authorization boundaries, evidence standards, and continuity without freezing an advanced model into yesterday's methods. Agent Engineering OS uses live runtime capabilities and permits newer mechanisms to supersede the examples in its documentation.
+The installable bundle is [smart-agent/](smart-agent/). For a supported installer, use: `Install the skill from https://github.com/AdnanNaous/smart-agent/tree/main/smart-agent`. Keep its `SKILL.md`, `agents/`, `references/`, `assets/` and `scripts/` together. Install the inner folder using your runtime's supported skill installer, or copy it to `~/.codex/skills/smart-agent/` (Windows: `%USERPROFILE%\.codex\skills\smart-agent\`). The display name is **SMART AGENT**, while the technical slug uses lowercase hyphens.
 
-It does not promise that instructions can eliminate all performance constraints. Its design avoids fixed model hierarchies, reasoning ladders, mandatory agent pipelines, and compulsory routing tables.
-
-## Architecture
-
-```mermaid
-flowchart TD
-    Goal["User intent and outcome"] --> Context["Relevant context and live capabilities"]
-    Context --> Compose["Adaptive orchestration and native judgment"]
-    Compose --> Work["Research, engineer, operate, or create"]
-    Work --> Evidence["Observe and verify"]
-    Evidence --> Work
-    Evidence --> Result["Deliver the supported result"]
-    Work -.-> State["Concise continuity state"]
-    State -.-> Context
-```
-
-The diagram describes relationships, not a required pipeline. A simple stable question can receive a direct answer. A repository fix can involve inspection, implementation, and focused tests. A larger product can combine source research, engineering, app operation, and rendered QA.
-
-## Capabilities
-
-| Capability | What the operating layer supports |
-| --- | --- |
-| **Research** | Inspect sources, cross-check important claims, resolve contradictions, cite evidence. |
-| **Engineering** | Implement in the actual repository, run relevant checks, debug, verify behavior. |
-| **Security & reliability** | Trust boundaries, privacy, access, secrets, abuse resistance, infrastructure, recovery. |
-| **Computer & app work** | Operate available environments; verify changes and supported recurring jobs. |
-| **Creative & visual work** | Deliberate identity, licensed assets, accessibility, performance, rendered inspection. |
-| **Motion, video & audio** | Code/captured/generated/hybrid production, editable timing, sound, repeatable export. |
-| **Artifact reconstruction** | Authorized analysis and scoped behavioral reimplementation with evidence. |
-| **Collaboration & continuity** | Useful optional delegation, integrated results, concise resumable state. |
-| **Evolution** | Improve instructions from observed outcomes; replace outdated methods when authorized. |
-
-These are composable capabilities, not mandatory stages. The reference files are loaded only when useful.
-
-The skill can evolve through actual use: inspect new capabilities, experiment, observe failures, revise the approach, and preserve evidence-backed lessons where persistence is supported. When skill maintenance is authorized and available, update and validate the reusable instructions themselves. Replace obsolete tools, sources, and methods rather than treating them as permanent boundaries. Saved instructions and project knowledge do not train model weights or create continuous background execution.
-
-## Install
-
-The installable bundle is [agent-engineering-os/](agent-engineering-os/). Keep its `SKILL.md`, `agents/`, `references/`, and `assets/` together.
-
-For a Codex environment with a supported skill installer, ask it to install the inner folder from this repository:
+Back up an existing `agent-engineering-os` installation and personal modifications before replacing its active folder. Keep one active coordinator to avoid duplicate triggers. Historical source/runtime directory names can remain unchanged to preserve working dependencies. A repository update does not propagate automatically into another device or runtime. The current chat may retain its original skill catalog; reopen the chat or refresh skills if the new name is not yet offered.
 
 ```text
-Install the skill from https://github.com/AdnanNaous/agent-engineering-os/tree/main/agent-engineering-os
+$smart-agent Fix the failing behavior in this repository and verify the affected path.
+$smart-agent Build an Arabic RTL dashboard using the existing design system.
+$smart-agent Diagnose reverse proxy p95 latency using the supplied logs.
+$smart-agent Find appropriate Three.js guidance and assess the asset's license before import.
+$smart-agent Continue from the checkpoint and reconcile it with current files.
 ```
 
-For manual installation into a Codex user-skills directory:
+## Management system
 
-| Environment | Destination |
-| --- | --- |
-| Windows | `%USERPROFILE%\.codex\skills\agent-engineering-os\` |
-| macOS / Linux | `~/.codex/skills/agent-engineering-os/` |
-
-Follow your runtime's current skill discovery instructions. In ChatGPT environments that support personal skills, use the supported creation/import interface; publishing on GitHub alone does not install a skill. If skill loading is unavailable, provide `SKILL.md` and the relevant supporting references as instructions, with capabilities limited to that environment.
-
-### Migration
-
-Replace an existing local `smart-model-router` installation with the new bundle, preserving any personal modifications first. Avoid keeping both active unless you intentionally want overlapping triggers. This release changes the skill slug, UI metadata, examples, and folder links; Git history remains in the same repository.
-
-The repository and installable skill now use the slug `agent-engineering-os`. For existing clones, update the remote without replacing the checkout or its history:
-
-```sh
-git remote set-url origin https://github.com/AdnanNaous/agent-engineering-os.git
-```
-
-## Examples
+Run Python 3.10+ commands from the installed bundle, or use absolute script paths. On Windows, invoke a quoted interpreter using PowerShell's `&` operator.
 
 ```text
-$agent-engineering-os Fix the failing checkout flow in this repository.
-Inspect the cause, implement the fix, and verify the affected behavior.
+python scripts/manage.py list
+python scripts/manage.py recommend "nginx upstream latency"
+python scripts/manage.py recommend "Arabic RTL accessible dashboard"
+python scripts/manage.py show web-3d
+python scripts/manage.py disable visual-retrieval
+python scripts/manage.py enable visual-retrieval
+python scripts/manage.py doctor
+python scripts/toolkit.py search "systematic debugging" --source superpowers --limit 5
+python scripts/toolkit.py read "superpowers:skills/systematic-debugging/SKILL.md"
+python scripts/toolkit.py check
 ```
+
+The registry is [modules.json](smart-agent/assets/modules.json). Recommendations are bounded lexical hints, not a new reasoning engine. Enablement changes this skill's suggestions only; it never disables safety/authorization requirements or installs/uninstalls tools. User instructions take precedence. Preferences are stored outside the bundle at `${CODEX_HOME}/skill-state/smart-agent/modules.json`; the default Codex home is `~/.codex`. `SMART_AGENT_STATE` isolates test state.
+
+`doctor` checks module paths and source presence. `toolkit.py check` checks exact revisions, indexed file hashes and recorded notices. Missing optional dependencies are explicit limitations. An absent historical Blender download is reported as a warning; it is not claimed as verified. Source presence does not establish authenticated services, working graphics or a successful penetration test.
+
+## Integrated sources
+
+| Source | Useful contribution | Current integration boundary |
+| --- | --- | --- |
+| [Three.js source](https://github.com/mrdoob/three.js) and [official site](https://threejs.org/) | Browser 3D, scene lifecycle, loaders, performance, WebGL/WebGPU decisions | Pinned guides and adapter; no sample application or renderer was installed by this update |
+| [Agent Beacon](https://github.com/Asymptote-Labs/agent-beacon) | Session evidence, replay and reusable knowledge | Reference only; no session collector, cloud connection or memory writer activated |
+| [Atlas Components](https://github.com/TurkiHassan/atlas-components) | React/TypeScript component selection and Arabic RTL examples | Reference only; reviewed package is locally packed. Repository-level redistribution rights require review |
+| [Superpowers](https://github.com/obra/superpowers) | Debugging, focused tests, plans and evidence before completion | Selective adaptation; no compulsory global gates or automatic agent dispatch |
+| [Headroom](https://github.com/headroomlabs-ai/headroom) | Context compression and retrieval ideas | Reference and measurement guidance; no proxy/wrapper/config modification activated |
+| [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | Rendering and retrieval of visual document evidence | Reference only; no ML model, hosted query or screenshot pipeline activated |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | Scenario routing, case scope and evidence contracts | Priority reference; no bootstrap, target operation or agent dispatch activated |
+| [REA](https://github.com/morluto/rea) | Application/binary analysis, CLI/MCP providers and retained evidence | Priority reference; no setup, MCP registration or native provider installation |
+| [Open3DLab](https://open3dlab.com/) | User-requested external 3D asset candidate | Automated read encountered an Anubis challenge; no asset/license/download verified |
+
+The existing UI Skills, gstack, Codex Auto Model Router, game guides, Meowa, Blender MCP and Codex Game Studio references are retained. The complete source revisions and notice checksums are recorded in [toolkit-sources.json](smart-agent/assets/toolkit-sources.json). Upstream libraries are stored outside the bundle; their hooks, installers, telemetry, model defaults and publishing prompts never become authorization merely through inclusion.
+
+For a fresh environment, inspect the manifest first and explicitly acquire a chosen pin:
 
 ```text
-$agent-engineering-os Compare current options for this architecture using
-primary sources, then implement the appropriate choice in the existing app.
+python scripts/fetch_sources.py --source superpowers
+python scripts/toolkit.py refresh
+python scripts/toolkit.py check
 ```
+
+The fetch helper rejects existing targets and acquires inert sparse documents at the exact pin without running upstream setup. `--destination` supports a reviewed alternative location; deliberately update the manifest root before index refresh. The separately installed Meowa skill and optional Blender attachment have their own prerequisites. No bulk installation is necessary for ordinary skill use.
+
+## Cybersecurity and reverse proxies
+
+[Cybersecurity guidance](smart-agent/references/cybersecurity-tools.md) covers **Nmap, Wireshark, Kali Linux, Burp Suite, Ghidra, Suricata, Metasploit, OSINT Framework, Hashcat, Aircrack-ng, OWASP ZAP and Splunk**. It maps each tool to useful questions, scope, versions, evidence and limitations. Kali is an environment; OSINT Framework is a discovery directory. No tools are installed and no targets scanned by listing them here.
+
+[Reverse proxy guidance](smart-agent/references/reverse-proxy-observability.md) covers latency percentiles, upstream timing, errors, retry amplification, queues, connection/resource saturation, log correlation, NGINX/HAProxy instrumentation, diagnosis and reversible configuration changes. It preserves retries and multiple upstream timing values and avoids invalid percentile aggregation. No production monitoring is installed automatically.
+
+## Models today and in the future
+
+[Model routing](smart-agent/references/model-routing.md) treats selection as an optional optimization. The dated cache snapshot and live-schema observation are separate. Current observed chat controls expose eight models, collaboration exposes five, and two hidden cache entries remain inventory-only. Effort support is recorded by exact surface in [surface-models.json](smart-agent/assets/surface-models.json).
 
 ```text
-$agent-engineering-os Repair the mobile layout and motion in my portfolio.
-Preserve its identity and inspect the rendered result.
+python scripts/manage.py refresh-models --surfaces assets/surface-models.json
+python scripts/toolkit.py models
 ```
+
+The refresh helper accepts newly discovered model IDs and efforts from the local catalog, copies only selected fields, and preserves the age of the surface observation. Recheck actual live schemas before a consequential route. It never guesses prices, ranks families by name, changes global defaults, switches the coordinator or predicts unreleased models. There is no background monitor or scheduled updater in this release.
+
+## Efficient work and measurement
+
+Read only useful modules; search metadata before loading source text; retrieve bounded excerpts; batch independent reads; preserve raw evidence while summarizing long outputs; avoid unnecessary polling and rerunning passed checks; maintain compact checkpoints. Delegate only when authorized and the benefit exceeds overhead. Preserve the selected model/effort and required quality checks.
+
+`manage.py token-report <measurements.json>` computes input-token comparisons from actual baseline/optimized runs. It requires positive baselines, preserves negative savings and flags missing quality validation. It does not independently verify supplied quality assertions, calculate billing or infer output/reasoning-token savings. No real savings benchmark was performed in this update.
+
+## Verification and maintenance
 
 ```text
-$agent-engineering-os Continue from this project's checkpoint.
-Reconcile it with the current files and finish the remaining authorized work.
+python -m pip install -r tools/requirements.txt
+python tools/validate_skill.py
+python -m unittest discover -s tests
+python smart-agent/scripts/manage.py doctor
+python smart-agent/scripts/toolkit.py check
 ```
 
-```text
-$agent-engineering-os Build this public API and payment integration.
-Verify server-side access, payment state, replay/concurrency behavior,
-production configuration, and recovery according to the actual stack.
-```
+Run repository tests from the repository root. The standard-library runtime helpers do not require PyYAML; repository/frontmatter validation does. Tests exercise future-ID discovery without copying account identity, isolated module state, bounded recommendations, token arithmetic and invalid data, source traversal rejection, changed-content detection and optional-attachment reporting. See [maintenance notes](docs/maintenance.md) and the [update evidence](tests/smart-agent-update-evidence.md).
 
-Security guidance is activated for relevant public/sensitive systems, not trivial code questions. It is integrated into design and implementation, rather than relying on a scanner after the application is built. Findings and checks need evidence; the skill does not certify a system as secure or compliant.
-
-```text
-$agent-engineering-os Make a launch film for this product using its actual
-features and brand. Choose an available production approach, inspect the
-export, and leave editable sources and reproducible render instructions.
-```
-
-```text
-$agent-engineering-os Reconstruct the behavior of this authorized shipped
-artifact. Separate observation from inference, implement the requested
-compatible behavior, and verify the important boundaries.
-```
-
-Creative references are selected for the brief, not treated as a permanent toolchain or model benchmark. Repeated production can maintain a runnable project with brand tokens, licensed assets, scene components, timeline data, render commands, and concise checkpoints. This does not require a large prompt or a fixed agent team.
-
-You can initiate work from a phone/chat conversation. Actual execution uses available environments and tools; the skill does not create an automatic transfer to another computer, chat, or coding runtime.
-
-## Repository map
-
-| Location | Audience and purpose |
-| --- | --- |
-| [agent-engineering-os/](agent-engineering-os/) | The portable installable skill, with compact entry point and conditional references |
-| [AGENTS.md](AGENTS.md) | Repository context for current and future coding agents |
-| [docs/](docs/) | Maintenance context and lightweight editable presentation assets |
-| [tests/](tests/) | Validator regression cases and transparent behavioral evaluation reports |
-| [tools/](tools/) | Structural validation and its pinned dependency |
-| [Validation workflow](.github/workflows/validate.yml) | Read-only checks on GitHub changes; no automatic instruction editing |
-
-The installable bundle stays independent of repository decoration. A future agent can start from `AGENTS.md` for maintenance or `SKILL.md` for task execution and use only the context it needs.
-
-## Bundle
-
-| File | Purpose |
-| --- | --- |
-| [SKILL.md](agent-engineering-os/SKILL.md) | Compact operating principles and reference activation |
-| [agents/openai.yaml](agent-engineering-os/agents/openai.yaml) | UI metadata and invocation example |
-| [capability-orchestration.md](agent-engineering-os/references/capability-orchestration.md) | Live discovery, optional routing, portability |
-| [research.md](agent-engineering-os/references/research.md) | Evidence quality, contradictions, citations |
-| [software-engineering.md](agent-engineering-os/references/software-engineering.md) | Implementation, debugging, AI-agent systems, delivery |
-| [security-reliability-infrastructure.md](agent-engineering-os/references/security-reliability-infrastructure.md) | Threat-aware engineering, privacy, infrastructure, reliability, and adversarial verification |
-| [computer-work.md](agent-engineering-os/references/computer-work.md) | Environment/app execution and final-state verification |
-| [project-team.md](agent-engineering-os/references/project-team.md) | Useful delegation and integration |
-| [continuity.md](agent-engineering-os/references/continuity.md) | Checkpoint and resumption |
-| [creative-production.md](agent-engineering-os/references/creative-production.md) | Creative research and production |
-| [motion-video-production.md](agent-engineering-os/references/motion-video-production.md) | Code/generated/hybrid films, timing, identity, repeatable export, reusable project context |
-| [browser-motion-and-audio.md](agent-engineering-os/references/browser-motion-and-audio.md) | Browser timing, procedural sound, autoplay/replay, graceful degradation, audio and export verification |
-| [reverse-engineering.md](agent-engineering-os/references/reverse-engineering.md) | Authorized artifact analysis, behavioral reconstruction, evidence and parity limits |
-| [visual-web.md](agent-engineering-os/references/visual-web.md) | Visual website implementation and inspection |
-| [visual-assets-and-performance.md](agent-engineering-os/references/visual-assets-and-performance.md) | Asset provenance, optimization, rendering budgets |
-| [visual-motion-and-review.md](agent-engineering-os/references/visual-motion-and-review.md) | Motion construction and observed review |
-| [STATE_TEMPLATE.md](agent-engineering-os/assets/STATE_TEMPLATE.md) | Compact handoff template |
-
-## Validation
-
-Run `python3 tools/validate_skill.py` from the repository root to check metadata, bundle paths, invocation coherence, and relative documentation links. Run `python3 -m unittest discover -s tests` for the validator's failure cases. The validation tooling requires Python 3.9+ and PyYAML. Use the available dependency or install the repository pin with `python3 -m pip install -r tools/requirements.txt`. The GitHub validation workflow exercises these checks on supported repository events.
-
-Structural checks cannot prove future model behavior, security, or successful task completion. Behavioral evaluation still requires realistic tasks and observed results. Changes should be reviewed for unnecessary prescriptions as well as correctness.
-
-See [observed behavioral evaluation](tests/behavioral-evaluation.md) for the local tasks exercised during this migration and their verification limits.
-
-See [security and recurring-work source evaluation](tests/security-worker-evaluation.md) for the latest inspected posts, useful additions, and deliberately omitted rigid prescriptions.
-
-See [creative evidence and evaluation](tests/creative-evaluation.md) for the inspected social demonstrations, primary production sources, resulting additions, and local execution checks. These observations inform conditional guidance; they do not establish model rankings or guarantee equivalent film quality.
-
-## Limits
-
-A skill supplies instructions, not new capabilities or permissions. It cannot unlock apps, select unexposed models, change the main chat model without controls, access an unrelated device, guarantee persistence, bypass quotas, or provide paid API usage through a subscription.
-
-Tools, access, model controls, and skill-loading support vary by runtime. Missing capabilities should produce a precise limitation and useful partial progress. Claims of execution, verification, cost, or savings require actual evidence. No skill guarantees that all code is correct or that every future model will behave identically.
+Keep third-party notices with actual redistributed content. No upstream source code is vendored into this repository. Preserve project files, configuration and useful history. Record dates, conditions and validation boundaries; update instructions from evidence rather than treating one successful attempt as a permanent rule. This is an instruction and tooling package, not a Codex application upgrade, model-weight update or guarantee of future performance.

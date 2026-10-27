@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "id": "browser-motion-and-audio",
+      "title": "Browser motion and procedural audio",
+      "reference": "references/browser-motion-and-audio.md",
+      "keywords": [
+        "audio",
+        "browser",
+        "sound",
+        "playback",
+        "motion",
+        "ط·آµط¸ث†ط·ع¾"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "capability-orchestration",
+      "title": "Capability-first orchestration",
+      "reference": "references/capability-orchestration.md",
+      "keywords": [
+        "capabilities",
+        "tools",
+        "model",
+        "routing",
+        "orchestration"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "computer-work",
+      "title": "Computer, app, and environment work",
+      "reference": "references/computer-work.md",
+      "keywords": [
+        "browser",
+        "computer",
+        "windows",
+        "app",
+        "files",
+        "operate",
+        "ط¸â€¦ط·ع¾ط·آµط¸ظ¾ط·آ­",
+        "ط·آ­ط·آ§ط·آ³ط¸ث†ط·آ¨"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "continuity",
+      "title": "Continuity Guard",
+      "reference": "references/continuity.md",
+      "keywords": [
+        "continue",
+        "checkpoint",
+        "resume",
+        "state",
+        "continuity",
+        "ط¸â€¦ط·ع¾ط·آ§ط·آ¨ط·آ¹ط·آ©"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "creative-production",
+      "title": "Creative production workflow",
+      "reference": "references/creative-production.md",
+      "keywords": [
+        "creative",
+        "media",
+        "design",
+        "art",
+        "ط·آ¥ط·آ¨ط·آ¯ط·آ§ط·آ¹"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "game-assets-and-blender",
+      "title": "Game assets, Meowa and Blender",
+      "reference": "references/game-assets-and-blender.md",
+      "keywords": [
+        "game",
+        "assets",
+        "blender",
+        "sprites",
+        "rig",
+        "3d",
+        "animation",
+        "ط·آ£ط¸â€‍ط·آ¹ط·آ§ط·آ¨"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "game-development",
+      "title": "Game development workflow and engine guides",
+      "reference": "references/game-development.md",
+      "keywords": [
+        "game",
+        "games",
+        "godot",
+        "unity",
+        "unreal",
+        "design",
+        "level",
+        "playable",
+        "ط·آ£ط¸â€‍ط·آ¹ط·آ§ط·آ¨"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "game-testing-and-release",
+      "title": "Game testing, performance and release",
+      "reference": "references/game-testing-and-release.md",
+      "keywords": [
+        "game",
+        "testing",
+        "input",
+        "controller",
+        "save",
+        "packaging",
+        "release",
+        "qa",
+        "ط·آ£ط¸â€‍ط·آ¹ط·آ§ط·آ¨",
+        "ط·آ§ط·آ®ط·ع¾ط·آ¨ط·آ§ط·آ±"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "integrated-toolkit",
+      "title": "Integrated toolkit",
+      "reference": "references/integrated-toolkit.md",
+      "keywords": [
+        "toolkit",
+        "sources",
+        "libraries",
+        "upstream",
+        "search",
+        "discovery"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "visual-retrieval",
+      "title": "Session knowledge and visual retrieval",
+      "reference": "references/memory-and-visual-retrieval.md",
+      "keywords": [
+        "beacon",
+        "memory",
+        "session",
+        "pixelrag",
+        "screenshot",
+        "visual",
+        "retrieval",
+        "rag",
+        "superpowers",
+        "debugging",
+        "ط·آ°ط·آ§ط¸ئ’ط·آ±ط·آ©",
+        "ط·آµط¸ث†ط·آ±"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "model-routing",
+      "title": "Current models and future changes",
+      "reference": "references/model-routing.md",
+      "keywords": [
+        "model",
+        "models",
+        "effort",
+        "terra",
+        "sol",
+        "astra",
+        "luna",
+        "future",
+        "route",
+        "ط¸â€ ط¸â€¦ط·آ§ط·آ°ط·آ¬"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "motion-video-production",
+      "title": "Motion and video production",
+      "reference": "references/motion-video-production.md",
+      "keywords": [
+        "video",
+        "film",
+        "music",
+        "timeline",
+        "production",
+        "ط¸ظ¾ط¸ظ¹ط·آ¯ط¸ظ¹ط¸ث†"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "project-team",
+      "title": "Adaptive project collaboration",
+      "reference": "references/project-team.md",
+      "keywords": [
+        "team",
+        "agent",
+        "delegation",
+        "parallel",
+        "workers",
+        "agents",
+        "ط¸ظ¾ط·آ±ط¸ظ¹ط¸â€ڑ"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "research",
+      "title": "Evidence-driven research",
+      "reference": "references/research.md",
+      "keywords": [
+        "research",
+        "evidence",
+        "sources",
+        "citations",
+        "compare",
+        "current",
+        "ط·آ¨ط·آ­ط·آ«",
+        "ط¸â€¦ط·آµط·آ§ط·آ¯ط·آ±"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "reverse-engineering",
+      "title": "Artifact and behavior reconstruction",
+      "reference": "references/reverse-engineering.md",
+      "keywords": [
+        "reverse",
+        "reconstruction",
+        "binary",
+        "format",
+        "ط·ع¾ط·آ­ط¸â€‍ط¸ظ¹ط¸â€‍"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "security-reliability-infrastructure",
+      "title": "Security, privacy, reliability, and infrastructure engineering",
+      "reference": "references/security-reliability-infrastructure.md",
+      "keywords": [
+        "security",
+        "privacy",
+        "auth",
+        "payments",
+        "reliability",
+        "infrastructure",
+        "secrets",
+        "ط·آ£ط¸â€¦ط·آ§ط¸â€ "
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "skill-management",
+      "title": "SMART AGENT module management",
+      "reference": "references/skill-management.md",
+      "keywords": [
+        "modules",
+        "inventory",
+        "manage",
+        "enable",
+        "disable",
+        "registry",
+        "catalog",
+        "maintenance",
+        "ط·آ¥ط·آ¯ط·آ§ط·آ±ط·آ©",
+        "ط¸â€¦ط¸â€،ط·آ§ط·آ±ط·آ§ط·ع¾",
+        "ط¸ظ¾ط¸â€،ط·آ±ط·آ³"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "software-engineering",
+      "title": "Software and AI-agent engineering",
+      "reference": "references/software-engineering.md",
+      "keywords": [
+        "software",
+        "code",
+        "programming",
+        "implementation",
+        "debugging",
+        "api",
+        "integration",
+        "ط·آ¨ط·آ±ط¸â€¦ط·آ¬ط·آ©",
+        "ط·آ¥ط·آµط¸â€‍ط·آ§ط·آ­"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "token-efficiency",
+      "title": "Token efficiency without losing evidence",
+      "reference": "references/token-efficiency.md",
+      "keywords": [
+        "tokens",
+        "usage",
+        "budget",
+        "efficient",
+        "compression",
+        "headroom",
+        "cost",
+        "ط·ع¾ط¸ث†ط¸ظ¾ط¸ظ¹ط·آ±",
+        "ط·ع¾ط¸ث†ط¸ئ’ط¸â€ ",
+        "ط·آ§ط·آ³ط·ع¾ط¸â€،ط¸â€‍ط·آ§ط¸ئ’"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "visual-assets-and-performance",
+      "title": "Asset preparation and delivery",
+      "reference": "references/visual-assets-and-performance.md",
+      "keywords": [
+        "asset",
+        "performance",
+        "gpu",
+        "optimization",
+        "licenses",
+        "ط·آ£ط·آµط¸ث†ط¸â€‍",
+        "ط·آ£ط·آ¯ط·آ§ط·طŒ"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "visual-motion-and-review",
+      "title": "Motion design and visual review",
+      "reference": "references/visual-motion-and-review.md",
+      "keywords": [
+        "animation",
+        "motion",
+        "review",
+        "frames",
+        "ط·آ­ط·آ±ط¸ئ’ط·آ©"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "visual-web",
+      "title": "Autonomous Visual Web",
+      "reference": "references/visual-web.md",
+      "keywords": [
+        "website",
+        "frontend",
+        "ui",
+        "ux",
+        "accessible",
+        "accessibility",
+        "rtl",
+        "responsive",
+        "dashboard",
+        "ط¸ث†ط·آ§ط·آ¬ط¸â€،ط·آ©"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "web-3d",
+      "title": "Three.js and external 3D assets",
+      "reference": "references/web-3d-and-assets.md",
+      "keywords": [
+        "threejs",
+        "three.js",
+        "3d",
+        "webgl",
+        "webgpu",
+        "gltf",
+        "atlas",
+        "react",
+        "arabic",
+        "rtl",
+        "open3dlab",
+        "model",
+        "asset",
+        "dashboard",
+        "ط·آ¹ط·آ±ط·آ¨ط¸ظ¹"
+      ],
+      "default_enabled": true,
+      "related": [],
+      "validation": "Inspect the actual task artifact and evidence described in this reference; source presence alone is insufficient."
+    },
+    {
+      "id": "cybersecurity-tools",
+      "title": "Cybersecurity tools and evidence",
+      "reference": "references/cybersecurity-tools.md",
+      "keywords": [
+        "cybersecurity",
+        "nmap",
+        "wireshark",
+        "kali",
+        "burp",
+        "ghidra",
+        "suricata",
+        "metasploit",
+        "osint",
+        "hashcat",
+        "aircrack-ng",
+        "zap",
+        "splunk",
+        "security",
+        "capture",
+        "penetration",
+        "test",
+        "ط£ظ…ظ†",
+        "ط³ظٹط¨ط±ط§ظ†ظٹ",
+        "ط§ط®طھط±ط§ظ‚",
+        "ط´ط¨ظƒط§طھ"
+      ],
+      "default_enabled": true,
+      "related": [
+        "security-reliability-infrastructure"
+      ],
+      "validation": "Use scoped evidence and observable behavior; source guidance does not establish installed tools or a successful test."
+    },
+    {
+      "id": "reverse-proxy-observability",
+      "title": "Reverse proxy performance monitoring and troubleshooting",
+      "reference": "references/reverse-proxy-observability.md",
+      "keywords": [
+        "reverse",
+        "proxy",
+        "nginx",
+        "haproxy",
+        "performance",
+        "latency",
+        "monitoring",
+        "troubleshooting",
+        "upstream",
+        "timeout",
+        "502",
+        "503",
+        "504",
+        "splunk",
+        "ظ…ط±ط§ظ‚ط¨ط©",
+        "ط£ط¯ط§ط،",
+        "ظˆظƒظٹظ„",
+        "ط¹ظƒط³ظٹ"
+      ],
+      "default_enabled": true,
+      "related": [
+        "security-reliability-infrastructure"
+      ],
+      "validation": "Use scoped evidence and observable behavior; source guidance does not establish installed tools or a successful test."
+    },
+    {
+      "id": "reverse-toolchains",
+      "title": "Priority reverse-skill and REA toolchains",
+      "reference": "references/reverse-toolchains.md",
+      "keywords": [
+        "reverse",
+        "reverse-skill",
+        "rea",
+        "binary",
+        "binaries",
+        "apk",
+        "asar",
+        "electron",
+        "native",
+        "decompile",
+        "ghidra",
+        "ida",
+        "hopper",
+        "evidence",
+        "الهندسة",
+        "العكسية",
+        "تحليل"
+      ],
+      "priority": "user-requested priority for relevant reverse-engineering tasks",
+      "default_enabled": true,
+      "related": [
+        "reverse-engineering",
+        "cybersecurity-tools"
+      ],
+      "validation": "Inspect actual artifact/provider evidence. No runtime connection or successful analysis is implied by indexed instructions."
+    }
+  ]
+}

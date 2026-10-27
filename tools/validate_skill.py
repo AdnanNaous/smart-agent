@@ -8,7 +8,7 @@ from urllib.parse import unquote, urlsplit
 import yaml
 
 
-SLUG = "agent-engineering-os"
+SLUG = "smart-agent"
 LINK = re.compile(r"\[[^\]]*\]\(([^\s)]+)(?:\s+[^)]*)?\)")
 
 
@@ -34,9 +34,9 @@ def check_links(path, root):
             continue
         resolved = (path.parent / unquote(parsed.path)).resolve()
         if not resolved.is_relative_to(root.resolve()):
-            errors.append(f"{path.relative_to(root)}: link escapes repository: {target}")
+            errors.append(f"{path.relative_to(root).as_posix()}: link escapes repository: {target}")
         elif not resolved.exists():
-            errors.append(f"{path.relative_to(root)}: missing link target: {target}")
+            errors.append(f"{path.relative_to(root).as_posix()}: missing link target: {target}")
     return errors
 
 
@@ -63,11 +63,11 @@ def validate(root):
         if not isinstance(agent, dict) or not isinstance(agent.get("interface"), dict):
             raise ValueError("openai.yaml: interface must be a mapping")
         interface = agent["interface"]
-        if interface.get("display_name") != "Agent Engineering OS":
+        if interface.get("display_name") != "SMART AGENT":
             errors.append("openai.yaml: stale display name")
         short = interface.get("short_description", "")
         if not isinstance(short, str) or not 25 <= len(short) <= 64:
-            errors.append("openai.yaml: short_description must be 25–64 characters")
+            errors.append("openai.yaml: short_description must be 25â€“64 characters")
         prompt = interface.get("default_prompt", "")
         if not isinstance(prompt, str) or f"${SLUG}" not in prompt:
             errors.append("openai.yaml: default_prompt must invoke the current skill")
@@ -76,7 +76,7 @@ def validate(root):
                 errors.append(f"SKILL.md: reference is not discoverable: {reference.name}")
     except (ValueError, TypeError, KeyError, yaml.YAMLError) as exc:
         errors.append(f"Invalid metadata: {exc}")
-    if (root / "smart-model-router").exists():
+    if (root / "smart-model-router").exists() or (root / "agent-engineering-os").exists():
         errors.append("Old skill folder remains alongside migrated bundle")
     documentation = [
         *root.glob("*.md"),

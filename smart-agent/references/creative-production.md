@@ -2,6 +2,8 @@
 
 Use this reference for visual, interactive, media, game, or designed artifacts. Keep the work proportional to its scope; a small fix does not need a full production pipeline. Combine research, engineering, and environment operation when they materially improve the result.
 
+For games, use [game-development.md](game-development.md), [game-assets-and-blender.md](game-assets-and-blender.md), and [game-testing-and-release.md](game-testing-and-release.md) as needed. For the user's integrated UI, gstack, engine and studio libraries, search through [integrated-toolkit.md](integrated-toolkit.md) instead of loading whole collections.
+
 Read [motion-video-production.md](motion-video-production.md) for launch films, explainers, music visuals, frame-based export, or a reusable video project. Use [reverse-engineering.md](reverse-engineering.md) when the request requires reconstructing an authorized artifact's behavior rather than adapting its visual principles.
 
 ## Shape the brief and route the work

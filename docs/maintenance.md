@@ -1,6 +1,6 @@
 # Evolving the operating layer
 
-Agent Engineering OS is working knowledge, open to improvement through real use. Its examples are replaceable. The durable parts are user intent, native judgment, authorization, evidence, state integrity, and useful continuity.
+SMART AGENT is working knowledge, open to improvement through real use. Its examples are replaceable. The durable parts are user intent, native judgment, authorization, evidence, state integrity, and useful continuity.
 
 ## Learn from a concrete outcome
 
@@ -12,8 +12,8 @@ When maintaining the skill is authorized, a supported agent can edit the reusabl
 
 | Location | Purpose |
 | --- | --- |
-| [SKILL.md](../agent-engineering-os/SKILL.md) | Operating principles and conditional reference selection |
-| [references/](../agent-engineering-os/references/) | Reusable domain knowledge loaded when useful |
+| [SKILL.md](../smart-agent/SKILL.md) | Operating principles and conditional reference selection |
+| [references/](../smart-agent/references/) | Reusable domain knowledge loaded when useful |
 | Project-local state | Current objective, verified work, decisions, blockers, next action |
 | [tests/](../tests/) | Reproduction cases and observed evaluation evidence with limits |
 | [docs/](./) | Installation/maintenance context and repository presentation |

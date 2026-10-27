@@ -1,4 +1,0 @@
-interface:
-  display_name: "Agent Engineering OS"
-  short_description: "Turn goals into verified work with live capabilities"
-  default_prompt: "Use $agent-engineering-os to complete this goal with the available capabilities and verify the result."
