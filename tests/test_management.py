@@ -71,4 +71,12 @@ class ManagementTests(unittest.TestCase):
   result,code=t.check({'sources':[],'attachment':{'path':'unlikely-missing-file-xyz','sha256':'none','optional':True}},{'entries':[]})
   self.assertEqual(code,0);self.assertEqual(len(result['warnings']),1)
 
+ def test_doctor_resolves_user_home_source_paths(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   d=pathlib.Path(tmp);(d/'.sources').mkdir()
+   m.write(d/'modules.json',{'modules':[]})
+   m.write(d/'toolkit-sources.json',{'sources':[{'id':'local','root':'~/.sources'}]})
+   with patch.object(m,'ASSETS',d),patch.dict(os.environ,{'USERPROFILE':str(d),'HOME':str(d),'SMART_AGENT_STATE':str(d/'state.json')}):
+    self.assertEqual(m.doctor()['missing_optional_sources'],[])
+
 if __name__=='__main__':unittest.main()

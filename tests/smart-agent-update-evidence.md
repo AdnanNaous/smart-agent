@@ -8,7 +8,7 @@ Renamed the installed and portable skill to `smart-agent`, display name SMART AG
 
 - The skill-creator frontmatter validator returned `Skill is valid!` for the installed bundle.
 - Repository metadata, reference-discovery, invocation and link validation passed after final docs were staged.
-- `python -m unittest discover -s tests` passed 15 tests from the repository root. These include 10 management/integrity behavior cases and 5 existing repository-validator cases. Windows diagnostic paths were normalized to portable forward-slash output after the existing link tests exposed that portability issue.
+- `python -m unittest discover -s tests` passed 16 tests from the repository root. These include 11 management/integrity behavior cases and 5 existing repository-validator cases. Windows diagnostic paths were normalized to portable forward-slash output after the existing link tests exposed that portability issue.
 - Module diagnostics checked 26 reference paths and found the expected local sources. Source integrity checked 485 indexed hashes, exact repository heads and recorded license/notice checksums.
 - The source acquisition helper retrieved the exact Superpowers revision into a separate empty test destination without running upstream code. An unchanged existing target is rejected by the helper.
 - The unknown-model test uses a synthetic future ID and effort and confirms that account identity and arbitrary cache fields do not enter the snapshot. This validates discovery behavior, not an unreleased model.

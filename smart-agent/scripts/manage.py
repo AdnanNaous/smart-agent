@@ -102,7 +102,7 @@ def doctor():
     manifest=read(ASSETS/'toolkit-sources.json')
     missing=[]
     for s in manifest['sources']:
-        root=Path(s['root'].replace('${CODEX_HOME}',str(codex_home())))
+        root=Path(s['root'].replace('${CODEX_HOME}',str(codex_home()))).expanduser()
         if not root.is_dir(): missing.append(s['id'])
     return {'ok':not errors,'modules':len(modules),'enabled':sum(m['enabled'] for m in modules),
       'errors':errors,'missing_optional_sources':missing,
