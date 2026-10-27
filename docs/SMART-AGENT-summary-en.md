@@ -14,7 +14,7 @@ The package does not upgrade Codex, train model weights, create credentials or a
 
 ## 2. Architecture: one coordinator, selective modules
 
-The entrypoint is SKILL.md. It contains operating principles, authorization and evidence boundaries, and links to specialized references. The module registry contains 26 entries. A registry entry has a stable ID, title, keywords, reference path, enablement default, related modules and a validation expectation. The registry is an index of useful guidance, not a collection of automatically running agents.
+The entrypoint is SKILL.md. It contains operating principles, authorization and evidence boundaries, and links to specialized references. The module registry contains 27 entries. A registry entry has a stable ID, title, keywords, reference path, enablement default, related modules and a validation expectation. The registry is an index of useful guidance, not a collection of automatically running agents.
 
 The management helper lives in scripts/manage.py. Source discovery lives in scripts/toolkit.py. The source manifest records 16 registrations and exact revisions, while the catalog contains 485 indexed skills, workflows and guides. An indexed guide is not equivalent to a separately installed program. Some source registrations describe a repository, while the separately installed Meowa skill is a distinct registration referring to that capability.
 
@@ -86,15 +86,15 @@ The token-report helper computes input-token arithmetic from supplied measured b
 
 ## 9. Current models, new models and future freshness
 
-The model inventory is deliberately not a permanent ranking. It combines a sanitized local catalog with a separately dated observation of actual execution surfaces. At the maintenance observation, Codex chat controls expose eight candidates, collaboration exposes five of those, and two hidden local-cache entries remain inventory-only. Exact effort support differs by surface and is recorded in the accompanying JSON, not inferred from a family name.
+SMART AGENT has no fixed model-family or provider allowlist. Its instructions adapt to a host's actual abilities, while a new offline catalog helper accepts arbitrary provider/model IDs and open-ended capability names. It handles common OpenAI-compatible, Anthropic, Gemini, Ollama, Hugging Face and Codex catalog shapes. Configurable collection/ID field paths and a neutral export provide extension points for unfamiliar or future schemas. These are metadata adapters, not authenticated inference clients.
 
-The refresh helper accepts newly discovered model IDs and effort values without requiring the code to recognize a fixed family. It copies selected fields instead of account identity or arbitrary catalog objects. Cache freshness, a source checksum and the age of the surface observation remain separate. Refreshing the cache cannot claim to refresh tool schemas; an old schema snapshot is a prompt to verify, not proof of current support.
+The new scripts/models.py imports dated snapshots, lists a bounded subset and checks declared requirements. Provider and model IDs form a pair, so identical names from different services stay separate. Partial imports preserve unobserved records with their older dates. A complete replacement must be explicitly declared, and known continuation markers block a contradictory completeness claim. Importing a page never establishes a worldwide inventory.
 
-Before a consequential route, inspect the exact live target control and relevant runtime/account constraints. Verify capabilities or price claims with current official evidence when necessary. A model present in one cache may be unavailable in a particular agent tool. A model description is not a measured benchmark. Subscription limits, API pricing, cached inputs and local inference do not share one interchangeable cost model.
+Explicit feature support/non-support is preserved; omitted capabilities stay unknown. Stale or future-dated observations need verification, and retirement metadata is considered. Catalog parsing never marks execution verified. Neither a name containing vision/tools nor a reported token limit proves computer use. Credentials, entitlement, a working invocation surface and representative task validation remain separate requirements.
 
-Keep the user's coordinator and effort selection unless a supported change is requested or applicable instructions authorize it. Dispatching a worker does not switch the coordinator, and a catalog entry does not authorize delegation or a new chat. There is no global default change, automatic fallback ladder or background monitoring job installed here.
+The existing Codex cache and live-control observation remain separately dated. At this maintenance observation chat controls expose eight candidates, collaboration exposes five, and two hidden cache entries remain inventory-only. This local snapshot does not define the universe of supported identities. Preserve exact provider-specific efforts and avoid guessing prices or mapping every provider onto one intelligence scale.
 
-Future readiness means on-use discovery, honest dates, compatibility checks and deliberate maintenance. It cannot mean knowing unreleased models, guaranteeing access to future products or automatically learning while the application is closed. The skill remains adaptable because its decision process uses observed capabilities rather than a frozen list.
+Before actual use, inspect message roles, context/tokenization, multimodal encoding, tools, structured outputs, streaming, reasoning and cancellation contracts. Local weights also require suitable licensing, runtime and hardware. Keep the selected coordinator and effort. Terra 6.1 remains the user's preferred computer-use model when selectable and suitable. Future readiness means discovery and deliberate adaptation; it cannot promise access to unreleased models, automatic switching, universal correctness or unattended updates.
 
 ## 10. PixelRAG and visual evidence
 
@@ -156,7 +156,7 @@ For resumption, reconcile the checkpoint with the actual checkout, branch/revisi
 
 Maintenance starts from the installed bundle and the real repository rather than assuming they match. Preserve a backup and Git history, migrate the folder/slug/UI metadata coherently, check references and examples, then validate the installed copy and publishable copy separately. Keep one active personal coordinator. Existing source/runtime directories may keep old names because relocating working dependencies adds risk without improving the skill.
 
-The repository validation checks metadata, reference discoverability, invocation coherence and local links. Sixteen automated tests exercise structural failures and meaningful helper behavior: isolated enablement, bounded recommendations, unknown future model IDs, exclusion of account identity, honest missing measurements, negative savings, invalid telemetry, path traversal, changed content, user-home source resolution and optional attachment reporting. The explicit fetch helper was also exercised against an exact Superpowers revision in a separate temporary destination without running upstream setup.
+The repository validation checks metadata, reference discoverability, invocation coherence and local links. Thirty automated tests exercise structural failures and meaningful helper behavior: isolated enablement, bounded recommendations, unknown future model IDs, exclusion of account identity, honest missing measurements, negative savings, invalid telemetry, path traversal, changed content, user-home source resolution, optional attachment reporting and provider-neutral catalogs. Fourteen additional cases cover arbitrary future IDs/capabilities, custom wrappers, provider namespaces, partial/complete snapshots, pagination, secrets exclusion, stale/unknown/unsupported features, retirement and metadata-versus-execution boundaries. The explicit fetch helper was also exercised against an exact Superpowers revision in a separate temporary destination without running upstream setup.
 
 Integrity checks compare the indexed source files with their recorded hashes and repository revisions, and preserve notice checksums. They do not assess all upstream software for security or establish live account connections. The optional historical Blender package is currently absent and is disclosed. Open3DLab access and per-asset rights remain unverified. Runtime execution of the new external products and real token-savings benchmarks are outside this update's completed validation.
 
@@ -194,6 +194,7 @@ Rollback can restore the previous skill backup or Git revision, or revert an ind
 | cybersecurity-tools | Cybersecurity tools and evidence | references/cybersecurity-tools.md |
 | reverse-proxy-observability | Reverse proxy performance monitoring and troubleshooting | references/reverse-proxy-observability.md |
 | reverse-toolchains | Priority reverse-skill and REA toolchains | references/reverse-toolchains.md |
+| universal-model-support | Provider-agnostic present and future model support | references/universal-model-support.md |
 
 ## Appendix: practical commands
 
@@ -214,6 +215,8 @@ Run from the skill folder. Disable and enable are separate commands; replace dis
 | Acquire chosen pin | python scripts/fetch_sources.py --source superpowers |
 | Offline reindex | python scripts/toolkit.py refresh |
 | Model cache snapshot | python scripts/manage.py refresh-models --surfaces assets/surface-models.json |
+| Any-provider import | python scripts/models.py import --provider my-provider --input catalog.json --observed-on 2026-10-27 |
+| Capability check | python scripts/models.py check --provider my-provider --model exact-id --require computer_use |
 | Measured arithmetic | python scripts/manage.py token-report measurements.json |
 
 ## Appendix: models by execution surface
@@ -394,5 +397,15 @@ MIT; preserve dependency notices for redistributed components
 [nginx](https://nginx.org/en/docs/) - referenced; no installation or live assessment performed
 
 [haproxy](https://www.haproxy.com/documentation/haproxy-configuration-tutorials/alerts-and-monitoring/) - referenced; no installation or live assessment performed
+
+[openai-model-catalog](https://developers.openai.com/api/reference/resources/models/methods/list) - documentation reviewed; offline parsing tested; authenticated inference not tested
+
+[anthropic-model-catalog](https://platform.claude.com/docs/en/api/models/list) - documentation reviewed; offline parsing tested; authenticated inference not tested
+
+[gemini-model-catalog](https://ai.google.dev/api/models) - documentation reviewed; offline parsing tested; authenticated inference not tested
+
+[ollama-model-catalog](https://docs.ollama.com/api/tags) - documentation reviewed; offline parsing tested; authenticated inference not tested
+
+[huggingface-model-catalog](https://huggingface.co/docs/hub/en/api) - documentation reviewed; offline parsing tested; authenticated inference not tested
 
 No new external product runtime or security target was executed and no real token-savings percentage was measured. Structural checks, management behavior and reference integrity were exercised. Consult the release evidence for publication and remote revision status; this manual does not guarantee future executions.

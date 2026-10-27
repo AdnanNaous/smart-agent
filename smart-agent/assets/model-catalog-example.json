@@ -1,0 +1,18 @@
+{
+  "note": "Synthetic neutral-format example; not a real model or benchmark.",
+  "models": [
+    {
+      "id": "future-model-synthetic",
+      "display_name": "Synthetic model",
+      "capabilities": {
+        "text_input": true,
+        "text_output": true,
+        "image_input": null,
+        "tool_calling": null,
+        "computer_use": null,
+        "future_capability": null
+      },
+      "supported_reasoning_levels": ["provider-specific-level"]
+    }
+  ]
+}

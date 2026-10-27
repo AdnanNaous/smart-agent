@@ -43,3 +43,5 @@ Use [model-routing.md](model-routing.md) before a consequential model decision. 
 ## Evidence and rollback
 
 Keep technical maintenance results and measurements project-local. Retain the prior bundle or commit until validation completes. Roll back a faulty module, source pin or helper independently. Updating this skill is not permission to alter global agent configuration, capture histories, schedule background jobs, train models, publish projects or write personal memory. Follow the current task and runtime permissions for those operations.
+
+For provider-independent catalogs, use [universal-model-support.md](universal-model-support.md) and `scripts/models.py`. Provider registries remain local outside the bundle; the shipped neutral example is synthetic. Model checks preserve unknown capabilities, stale observations and execution limits.

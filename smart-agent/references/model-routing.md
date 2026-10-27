@@ -2,6 +2,8 @@
 
 Use native judgment on the user's selected model. A model change is optional, subject to the actual control surface and current authorization. Recommendations do not change the coordinator, create a chat or authorize delegation.
 
+For cross-provider and future-model adaptation, read [universal-model-support.md](universal-model-support.md). The local Codex snapshot below is one environment's inventory, not the skill's universe of supported model identities. `scripts/models.py` handles offline catalogs from arbitrary providers without executing models.
+
 ## User preference: computer-use plugin
 
 The user designates GPT-6.1 Terra (`gpt-6.1-terra`) as the best/preferred model for computer-use plugin tasks, recorded on 2026-10-27. Favor it when making a supported model-selection decision for that work. This is a task-specific user preference, not an independently measured universal ranking or a cost/speed claim.

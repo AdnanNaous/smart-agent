@@ -30,6 +30,8 @@ The integrated toolkit preserves Codex Auto Model Router, UI Skills, gstack, gam
 
 For computer-use plugin work, GPT-6.1 Terra (`gpt-6.1-terra`) is the user's preferred model when a supported selection is available; honor explicit model/effort choices and the actual runtime controls. Use [model-routing.md](references/model-routing.md) for the dated local model inventory and on-use freshness checks. Discover future model IDs and supported effort from actual runtime controls; do not infer permanent rankings, prices or availability from names. A refreshable snapshot is not an automatic background updater.
 
+Support present and future model families through [provider-agnostic model support](references/universal-model-support.md): accept arbitrary provider/model identities, discover current capabilities and adapt the execution contract. Distinguish portable instructions, catalog metadata, actual invocation access and validated behavior; naming a model never creates access.
+
 ## Manage modules and context economically
 
 Use [skill-management.md](references/skill-management.md) to discover modules, inspect enablement, select a small relevant subset, validate sources or refresh a model snapshot. `scripts/manage.py` supplies a local registry, bounded recommendations, enable/disable state, integrity diagnostics and measured-token arithmetic. `scripts/toolkit.py` searches pinned upstream references. These helpers never dispatch agents, switch models, run upstream installers or publish anything.
@@ -86,6 +88,7 @@ When the task or standing authorization includes skill maintenance and the runti
 | Media/model acquisition, provenance, optimization, GPU performance | [visual-assets-and-performance.md](references/visual-assets-and-performance.md) |
 | Animation construction and inspection over time | [visual-motion-and-review.md](references/visual-motion-and-review.md) |
 | Integrated source collections, UI Skills, gstack reviews, local toolkit search | [integrated-toolkit.md](references/integrated-toolkit.md) |
+| Any provider or future model, portable catalog imports and capability checks | [universal-model-support.md](references/universal-model-support.md) |
 | Current and future models, surface availability, optional routing advice | [model-routing.md](references/model-routing.md) |
 | Game design, engine/genre guidance, playable slices, production workflows | [game-development.md](references/game-development.md) |
 | Game art, sprites, animation, audio, Meowa, Blender and engine import | [game-assets-and-blender.md](references/game-assets-and-blender.md) |

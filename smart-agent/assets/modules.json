@@ -510,6 +510,40 @@
         "cybersecurity-tools"
       ],
       "validation": "Inspect actual artifact/provider evidence. No runtime connection or successful analysis is implied by indexed instructions."
+    },
+    {
+      "id": "universal-model-support",
+      "title": "Provider-agnostic present and future model support",
+      "reference": "references/universal-model-support.md",
+      "keywords": [
+        "model",
+        "models",
+        "provider",
+        "universal",
+        "future",
+        "local",
+        "open-weight",
+        "multimodal",
+        "ollama",
+        "gemini",
+        "anthropic",
+        "openai",
+        "huggingface",
+        "catalog",
+        "capabilities",
+        "all",
+        "نماذج",
+        "مزود",
+        "مستقبل",
+        "قدرات"
+      ],
+      "default_enabled": true,
+      "related": [
+        "model-routing",
+        "capability-orchestration",
+        "token-efficiency"
+      ],
+      "validation": "Exercise catalog adapters and representative runtime behavior separately; metadata parsing does not establish execution or entitlement."
     }
   ]
 }

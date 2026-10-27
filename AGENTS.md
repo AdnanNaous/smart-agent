@@ -26,4 +26,4 @@ Use existing dependencies when available. These commands check structure and val
 
 Publish only within the user's authorization and verify the actual remote result. A GitHub update does not automatically update an installed skill in another environment.
 
-SMART AGENT has 26 selectively loaded reference modules, a portable management CLI and pinned upstream catalogs. Changes to helpers require behavioral tests. Keep dated cache and live-surface observations separate. English repository maintenance documentation is the default; the user explicitly requested a full Arabic summary and Arabic PDF, so those deliverables are included. Do not automatically install or activate upstream tools.
+SMART AGENT has 27 selectively loaded reference modules, a portable management CLI and pinned upstream catalogs. Changes to helpers require behavioral tests. Keep dated cache and live-surface observations separate. English repository maintenance documentation is the default; the user explicitly requested a full Arabic summary and Arabic PDF, so those deliverables are included. Do not automatically install or activate upstream tools.

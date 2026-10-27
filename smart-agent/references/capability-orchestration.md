@@ -32,6 +32,8 @@ Obtain missing context or evidence before blaming model capability. Revise a sou
 
 Skip predictably inadequate attempts when difficulty is clear. Retry with new evidence or a changed hypothesis rather than merely another agent. Use no universal escalation count; respect explicit budgets, runtime limits, and whether the next attempt can materially improve the result.
 
+For any provider, local/open-weight runtime or future model, use [provider-agnostic model support](universal-model-support.md). Adapt prompts, context, modalities, tool contracts and parameters to verified capabilities; an imported catalog is not an invocation adapter or entitlement.
+
 ## Adapt across environments
 
 Use capabilities where actually exposed, whether in a chat, coding runtime, cloud workspace, app integration, or future environment. Missing delegation does not prevent direct work; missing browser access may still permit source or code checks. State the effect of missing capabilities on verification.

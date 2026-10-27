@@ -8,7 +8,7 @@ SMART AGENT keeps the current model's native judgment in charge. It supplies reu
 
 ## What this update adds
 
-- **26 reference modules**, with a local inventory, advisory selection, enable/disable preferences and integrity diagnostics.
+- **27 reference modules**, with a local inventory, advisory selection, enable/disable preferences and integrity diagnostics.
 - **485 indexed references across 16 source registrations**, including retained libraries and the newly requested sources. An index entry is a guide, skill or workflow, not an independently installed executable tool.
 - Three.js and its official site, Atlas Components, Superpowers, Agent Beacon, Headroom, PixelRAG and Open3DLab adapters.
 - **Priority reverse engineering:** reverse-skill and REA, including case/evidence workflows, provider distinctions, retained dossiers and recovery boundaries.
@@ -86,6 +86,17 @@ The fetch helper rejects existing targets and acquires inert sparse documents at
 [Reverse proxy guidance](smart-agent/references/reverse-proxy-observability.md) covers latency percentiles, upstream timing, errors, retry amplification, queues, connection/resource saturation, log correlation, NGINX/HAProxy instrumentation, diagnosis and reversible configuration changes. It preserves retries and multiple upstream timing values and avoids invalid percentile aggregation. No production monitoring is installed automatically.
 
 ## Models today and in the future
+
+SMART AGENT is provider-agnostic: its guidance and catalog identities have no fixed model-family allowlist. [Universal model support](smart-agent/references/universal-model-support.md) adds offline catalog imports for common provider shapes and configurable mappings for new schemas, exact provider/model namespaces, open-ended capabilities, pagination and retirement handling, stale-data checks and explicit unknowns. No provider access, inference client or worldwide live inventory is implied.
+
+```text
+python scripts/models.py import --provider my-provider --input catalog.json --observed-on 2026-10-27
+python scripts/models.py list --provider my-provider --limit 10
+python scripts/models.py check --provider my-provider --model exact-model-id --require computer_use
+```
+
+Run these examples from the skill folder. The current user preference for Terra 6.1 computer-use work remains in force when the model is available and suitable. Future compatibility requires observing the real API/runtime and adapting its contract; unreleased-model execution cannot be guaranteed.
+
 
 [Model routing](smart-agent/references/model-routing.md) treats selection as an optional optimization. The dated cache snapshot and live-schema observation are separate. Current observed chat controls expose eight models, collaboration exposes five, and two hidden cache entries remain inventory-only. Effort support is recorded by exact surface in [surface-models.json](smart-agent/assets/surface-models.json).
 

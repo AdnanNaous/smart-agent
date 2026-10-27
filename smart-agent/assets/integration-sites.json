@@ -97,6 +97,36 @@
       "url": "https://www.haproxy.com/documentation/haproxy-configuration-tutorials/alerts-and-monitoring/",
       "role": "primary documentation entrypoint",
       "status": "referenced; no installation or live assessment performed"
+    },
+    {
+      "id": "openai-model-catalog",
+      "url": "https://developers.openai.com/api/reference/resources/models/methods/list",
+      "role": "official catalog-schema documentation",
+      "status": "documentation reviewed; offline parsing tested; authenticated inference not tested"
+    },
+    {
+      "id": "anthropic-model-catalog",
+      "url": "https://platform.claude.com/docs/en/api/models/list",
+      "role": "official catalog-schema documentation",
+      "status": "documentation reviewed; offline parsing tested; authenticated inference not tested"
+    },
+    {
+      "id": "gemini-model-catalog",
+      "url": "https://ai.google.dev/api/models",
+      "role": "official catalog-schema documentation",
+      "status": "documentation reviewed; offline parsing tested; authenticated inference not tested"
+    },
+    {
+      "id": "ollama-model-catalog",
+      "url": "https://docs.ollama.com/api/tags",
+      "role": "official catalog-schema documentation",
+      "status": "documentation reviewed; offline parsing tested; authenticated inference not tested"
+    },
+    {
+      "id": "huggingface-model-catalog",
+      "url": "https://huggingface.co/docs/hub/en/api",
+      "role": "official catalog-schema documentation",
+      "status": "documentation reviewed; offline parsing tested; authenticated inference not tested"
     }
   ]
 }
